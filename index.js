@@ -37,4 +37,3 @@ connect
     app.listen(port, () => console.log(`Listening on port ${port}`));
   })
   .catch((err) => console.log("Erro: " + err));
-s;
