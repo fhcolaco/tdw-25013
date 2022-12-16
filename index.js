@@ -14,6 +14,7 @@ const connect = mongoose.connect(url, {
   useUnifiedTopology: true,
   useNewUrlParser: true,
 });
+console.log("lixo");
 connect
   .then(() => {
     console.log("Welcome to app_menu");
@@ -36,4 +37,4 @@ connect
     app.use("/pratos", menu_do_dia);
     app.listen(port, () => console.log(`Listening on port ${port}`));
   })
-  .catch((err) => console.log("Erro: " + err));
+  .catch((erro) => console.log("Erro: " + erro));
