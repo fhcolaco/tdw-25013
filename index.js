@@ -14,7 +14,6 @@ const connect = mongoose.connect(url, {
   useUnifiedTopology: true,
   useNewUrlParser: true,
 });
-console.log("lixo");
 connect
   .then(() => {
     console.log("Welcome to app_menu");
